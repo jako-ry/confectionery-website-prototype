@@ -10,8 +10,45 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   box-sizing: border-box;
+  font: normal 100%/1.3 sans-serif;
+  font-family: "Pacifico", cursive;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding: .3rem 0;
+  background-color: #ddd;
+}
+
+h1 {
+  text-align: center;
+}
+
+nav ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+nav li {
+  display: block;
+  padding: .5rem 1rem;
+  border-style: solid;
+}
+
+nav a {
+  text-decoration: none;
+  color: #666;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
 }
