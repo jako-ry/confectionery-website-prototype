@@ -131,7 +131,7 @@ section {
 }
 
 footer {
-  padding: .3rem 0;
+  padding: 1rem;
   background-color: #ccc;
   text-align: center;
   font-size: 80%;
@@ -146,6 +146,93 @@ footer {
 
   .img-small {
     width: 40%;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  nav li {
+    float: left;
+    width: 50%;
+    background-color: #ccc;
+  }
+
+  .special {
+    position: relative;
+  }
+
+  .fig-special {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .5);
+    color: #fff;
+  }
+
+  .menu {
+    width: 25%;
+    min-height: 23em;
+  }
+
+  .img-small {
+    width: 100%;
+    margin: 0;
+  }
+
+  figcaption {
+    clear: left;
+  }
+
+  h3 {
+    padding: .3em;
+  }
+
+  .about {
+    float: left;
+    width: 50%;
+  }
+
+  .contact {
+    float: left;
+    width: 50%;
+    background-color: #eee;
+  }
+
+  footer {
+    clear: left;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  nav li {
+    float: left;
+    width: 25%;
+    background-color: #ccc;
+    text-align: center;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
   }
 
 }
