@@ -227,12 +227,51 @@ footer {
     text-align: center;
   }
 
+  .special {
+    text-align: center;
+  }
+
+  .fig-special {
+    position: absolute;
+    left: 18%;
+    margin-right: 18%;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .5);
+    color: #fff;
+  }
+
+  .menu {
+    min-height: 25em;
+  }
+
+  section {
+    padding: 0 2em;
+  }
+
 }
 
 @media only screen and (min-width: 90em) {
 
   html {
     font-size: 130%;
+  }
+
+  main {
+    padding: 0 3em;
+  }
+
+  .special {
+    margin-top: 2.2em;
+    float: inherit;
+  }
+
+  .menu {
+    min-height: 27em;
+    overflow: hidden;
+  }
+
+  section {
+    padding: 0 5em;
   }
 
 }
